@@ -1,5 +1,193 @@
+:root{
+    --color-grayd: rgb(153,147,173)
+}
 *{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+ol{
+    color: white;
+    list-style: none;
+}
+
+header{
+    background-color: #404eed;;
+}
+img{
+    margin: -0.2rem 0;
+    width: 100%;
+}
+
+nav.container{
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 0;
+}
+
+h3{
+    font-size: x-large;
+}
+
+.grayd{
+    background-color: var(--color-grayd);
+}
+
+.pur{
+    color: #5a63c9;
+}
+
+.text-wht{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.marg-bot{
+    margin-bottom: 2rem;
+}
+
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+}
+
+.pad-m{
+    padding: 10% 0;
+}
+
+.pad-f{
+    padding: 5% 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-box{
+    width: 27%;
+    justify-content: space-evenly;
+    flex-flow: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-box-big{
+    width: 27%;
+    justify-content: space-evenly;
+    flex-flow: column;
+}
+
+.jumbo-container{
+    flex-flow: column;
+    padding: 10% 0;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.bt{
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+
+.bt-black{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.bt-pur{
+    background-color: #404eed;
+    color: white;
+    border: 1px solid #404eed;
+}
+
+.bt-log{
+    border: none;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.bt-white{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.img-box{
+    width: 60%;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.col-big{
+    width: 39%;
+    flex-flow: column;
+    border: 1px solid white;
+}
+
+.col{
+    width: 15%;
+    flex-flow: column;
+}
+
+.black{
+    background-color: black;
+}
+
+.bt-effect:hover{
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.bt-pur:hover{
+    background-color: #5a63c9;
+}
+
+.bt-black:hover{
+    background-color: gray;
+}
+
+.bt-white:hover{
+    background-color: rgb(158, 151, 151);
+}
+
+.bt-log:hover{
+    background-color: lightgray;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+
